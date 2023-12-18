@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c634d33705176469dcdb72a6b5da05, type: 3}
+  m_Name: Vehicles
+  m_EditorClassIdentifier: 
+  _objectVehicles:
+  - vehicle: 0
+    number: 0
+    vehicleName: LVT(A)
+    vehiclePhoto: {fileID: 21300000, guid: 4c03cb741ae9a4c41b416fa2cdb72ecd, type: 3}
+    vehicleInfo: The Amphibious Vehicle, Tracked, Amoured, Mark 1 - LVT(A)(1) is
+      the first (armoured, infantry support) variant of the Amphibious Vehicle, Tracked
+      (LVT) family. Originally designed and used as cargo ship carriers for ship-to-shore
+      operations to transport personnel and materials, they gradually evolved into
+      amphibious fire support vehicles, as well as other amphibious assault landing
+      variants. The first armoured, infantry support variant of the LVT was the LVT(A)
+      Mark 1. With the first combat experience of Pacific amphibious operations for
+      the U.S. Navy and U.S. Marines, it was evident that more firepower than the
+      M2HB Browning heavy machine gun commonly utilized by the U.S. Marines was required.
+  - vehicle: 0
+    number: 1
+    vehicleName: M22
+    vehiclePhoto: {fileID: 21300000, guid: db7fa7e28b160264c86a66afe107eed4, type: 3}
+    vehicleInfo: The M22, also known as the Light Tank (Locust) M22, is a World War
+      II airborne light tank designed by the U.S. Army for the British Airborne Forces.
+      In 1941, the British War Office requested that the American government design
+      a purpose-built airborne light tank that could be transported by military glider
+      into the battlefield to provide direct armoured fire support for the British
+      Airborne Forces. The British War Office had previously decided that the British
+      Airborne Forces would be equipped with the Light Tank Mark VII "Tetrarch".
+  - vehicle: 0
+    number: 2
+    vehicleName: M6A1
+    vehiclePhoto: {fileID: 21300000, guid: 74129ceb26ab6254eb65c2d21722d020, type: 3}
+    vehicleInfo: The Heavy Tank M6A1 is a rank III American heavy tank with a battle
+      rating of 4.7 (AB) and 5.0 (RB/SB). It was one of the first American tanks
+      to be released with the American ground tree in Update 1.45 "Steel Generals".
+      A rather unusual tank design mounting two cannons in the turret, however, it
+      has a durable frontal armour for the battle rating it occupies.
+  - vehicle: 0
+    number: 3
+    vehicleName: T1E1
+    vehiclePhoto: {fileID: 21300000, guid: 58b0a6c87f18cc1478e8627a5009e1b6, type: 3}
+    vehicleInfo: The armor is almost the same as the armor the one of the M6A1 has,
+      it just has more angled and rounded for better ricochet chances and efficient
+      armour thickness. The weak spots are the viewing slit to the right of the machine
+      guns and the unangled part on the lower hull.
+  - vehicle: 0
+    number: 4
+    vehicleName: M4A3E2
+    vehiclePhoto: {fileID: 21300000, guid: fc4d2c5fc7cf80c428d9995c27fda33a, type: 3}
+    vehicleInfo: The M4A3E2 Sherman - Assault Tank is an armoured modification of
+      the M4A3, which is the fourth variant of the early-generation Medium Tank M4
+      (Sherman) family. The U.S. Army decided in early 1944 that they needed an armoured
+      version of a medium tank for an assault role in the forthcoming European Theatre
+      of Operations (ETO). However, they had previously rejected proposals for such
+      a vehicle, and time was running out. The decision was made to modify the newest
+      standard U.S. Army medium tank of the time, the M4A3 Sherman, since the new
+      T26E1-1 heavy tank prototype would not be ready in time and earlier designs
+      had been completely inadequate for the role. The vehicle evolved into the M4A3E2
+      Sherman - Assault tank, sometimes known as the Sherman Jumbo.
+  - vehicle: 0
+    number: 5
+    vehicleName: T26E5
+    vehiclePhoto: {fileID: 21300000, guid: 2d42994bd63ea684383145356b56f19e, type: 3}
+    vehicleInfo: The frontal armour is quite strong, able to resist common weapons
+      such as the 7,5 cm KwK42 and the 8,8 cm KwK43 if angled properly. A notable
+      weak spot on the front glacis is the machine gun port but it is a small target
+      difficult to hit with precision. The other notable weak spot is the lower front
+      plate. With a relatively thin lower glacis, it is not able to absorb rounds
+      from most guns, and there is no transmission to absorb a penetrating shell.
+      However, the side armour can protect you to a certain degree when angled.
+  - vehicle: 0
+    number: 6
+    vehicleName: T26E1-1
+    vehiclePhoto: {fileID: 21300000, guid: 7ffa1899b9fbbcd4fa4804ae76e21022, type: 3}
+    vehicleInfo: With the development of the T26E3 Pershing tank, the US Army found
+      themselves with an adequate heavy tank for the European theater, but it was
+      still not to parity with the latest German heavy tank, the Tiger II. The long
+      88 mm KwK43 cannon proves superior to the 90 mm M3 cannon on the Pershing,
+      and so the US Army Ordnance Department developed a new gun to improve the 90
+      mm cannon's penetration capability, the 90 mm T15. This was successfully installed
+      into a T26E1 prototype, informally designated T26E1-1. The vehicle found itself
+      sent to Europe for combat trials in March 1945.
+  - vehicle: 0
+    number: 7
+    vehicleName: T34
+    vehiclePhoto: {fileID: 21300000, guid: b885eb5b02630604f9321a67296f5ba9, type: 3}
+    vehicleInfo: The Heavy Tank T34 is a rank IV American heavy tank with a battle
+      rating of 7.0 (AB) and 6.7 (RB/SB). It was introduced in Update 1.67 "Assault".
+      A formidable heavy tank with thick armour and heavy gun, the T34 presents a
+      radical new tank design, more so than any of its predecessors.
+  - vehicle: 0
+    number: 8
+    vehicleName: T32
+    vehiclePhoto: {fileID: 21300000, guid: c6991751f05c7394ca9861fbf49d3c11, type: 3}
+    vehicleInfo: The Heavy Tank T32 is a rank V American heavy tank with a battle
+      rating of 7.3 (AB/RB/SB). It was one of the first American tanks to be released
+      with the American ground tree in Update 1.45 "Steel Generals". It can be seen
+      as an extremely buffed up version of a M26 Pershing with a high velocity 90
+      mm gun and extremely tough front turret armour able to exploit hull down positions
+      against its competitors. The T32 is a post-World War II heavy tank with 7.3
+      Battle Rating, and it's one of the best tanks for a specific battle tactic
+      known as hull-down. Due to its 298 mm thick frontal turret armour, it will
+      mostly deflect any incoming armour-piercing shells at any range, except incoming
+      High-Explosive Anti-Tank Fin-Stabilized (HEATFS)
+  - vehicle: 0
+    number: 9
+    vehicleName: T32E1
+    vehiclePhoto: {fileID: 21300000, guid: 7b2d2ceb7a987ed4db49d58c7a94fad1, type: 3}
+    vehicleInfo: The Heavy Tank T32E1 is a rank V American heavy tank with a battle
+      rating of 7.7 (AB/RB/SB). It was introduced in Update 1.83 "Masters of the
+      Sea". Being the next stage of its development cycle, the T32E1 is essentially
+      the same as the T32 except the designers replaced the cast homogeneous plates
+      of the front hull in favour of simpler rolled homogeneous ones, deleting the
+      hull machine gun port in the process. This not only removes an obvious weakness
+      from the design, but it also strengthened the front hull plate from penetrations.
+  - vehicle: 0
+    number: 10
+    vehicleName: M103
+    vehiclePhoto: {fileID: 21300000, guid: 9326ffa5dac3f73428a0c7f11c6903ce, type: 3}
+    vehicleInfo: The 120 mm Gun Tank M103 is a rank V American heavy tank with a
+      battle rating of 7.7 (AB/RB/SB). It was one of the first American tanks to
+      be released with the American ground tree in Update 1.45 "Steel Generals".
+      The pinnacle of US heavy armour, armed with a monstrous 120mm gun and a nigh
+      impenetrable gun mantlet, it can become an almost unstoppable foe if played
+      correctly.
+  - vehicle: 0
+    number: 11
+    vehicleName: T95E1
+    vehiclePhoto: {fileID: 21300000, guid: 5aec3255f8e590d4188d1d82be23e427, type: 3}
+    vehicleInfo: The Medium Tank T95E1 is a rank VI American medium tank with a battle
+      rating of 8.3 (AB/RB/SB). It was introduced in Update 1.69 "Regia Aeronautica".
+      Presenting a 90 mm smoothbore cannon, it is currently the first tank in the
+      American tree line that uses APFSDS ammunition.
+  - vehicle: 0
+    number: 12
+    vehicleName: XM-803
+    vehiclePhoto: {fileID: 21300000, guid: a3cacba29c5009843b2eab27b93b5a5c, type: 3}
+    vehicleInfo: The Tank, Combat, Full-Tracked, 152 mm Gun/Launcher XM-803, developed
+      from the MBT-70, was part of the abandoned collaborative U.S. and West German
+      initiative to develop a new main battle tank to replace the existing M60 family
+      of MBTduring the 1960s. The program experienced significant challenges from
+      the start, with the United States Army and the German Bundeswehr having diverging
+      doctrines that were not coordinated and were not resolved before the project
+      was too far along to be modified. By the late 1960s, West Germany abandoned
+      the project and the U.S. solely funded the project for the next few years.
+  - vehicle: 1
+    number: 0
+    vehicleName: P-26A-34 M2
+    vehiclePhoto: {fileID: 21300000, guid: 5e97e320b1192c04f9d2a744586a729d, type: 3}
+    vehicleInfo: In 1932, before testing with the XP-936 was done, the U.S. Army
+      issued a statement for an improved XP-936 for production. Only a year later,
+      the USAAC ordered over 100 examples with the designation P-26A. It was to be
+      fitted with the Pratt & Whitney R-1340-27 Wasp radial engine that also boasted
+      a supercharger. The R-1340-27 made around 500 hp but later variants made 600
+      hp. P-26As were delivered not long after and proved to be a decently advanced
+      aircraft for its time. The P-26A-34 M2 Peashooter has been in the game since
+      the start of the Open Beta Test prior to Update 1.27. Although the P-26 is
+      a monoplane, it has an impressive turn radius but bi-planes are still far better
+      in terms of turning.
+  - vehicle: 1
+    number: 1
+    vehicleName: P-26A-33
+    vehiclePhoto: {fileID: 21300000, guid: bc23087b12af41642952d977595d32ea, type: 3}
+    vehicleInfo: In 1932, before testing with the XP-936 was done, the U.S. Army
+      issued a statement for an improved XP-936 for production. Only a year later,
+      the USAAC ordered over 100 examples with the designation P-26A. It was to be
+      fitted with the Pratt & Whitney R-1340-27 Wasp radial engine that also boasted
+      a supercharger. The R-1340-27 made around 500 hp but later variants made 600
+      hp. P-26As were delivered not long after and proved to be a decently advanced
+      aircraft for its time. The P-26A-34 M2 Peashooter has been in the game since
+      the start of the Open Beta Test prior to Update 1.27. Although the P-26 is
+      a monoplane, it has an impressive turn radius but bi-planes are still far better
+      in terms of turning.
+  - vehicle: 1
+    number: 2
+    vehicleName: 'P-26B-35 '
+    vehiclePhoto: {fileID: 21300000, guid: 97f4af01ba8fadc4d95973edb40b1fdc, type: 3}
+    vehicleInfo: "The P-26 was one of Boeing\u2019s first monoplane aircraft and
+      was quite advanced at its time. It was relatively fast thanks to its all-metal
+      construction and the R-1340, a 9-cylinder radial engine that produced around
+      ~550 HP. It was an extremely successful engine and was quickly innovated from
+      originally making a measly 400 HP to almost 600 HP thanks to better fuels,
+      forged engine parts, and improved cowlings. The P-26B was fitted with a fuel-injected
+      version of the Wasp and landing flaps that greatly reduced the dangerous landing
+      speed from 82 mph (131.2 km/h) to 73 mph (116.8 km/h)."
+  - vehicle: 1
+    number: 3
+    vehicleName: 'P-63A-10 '
+    vehiclePhoto: {fileID: 21300000, guid: 10f368e4d8d228b4c8de8e67559d55a5, type: 3}
+    vehicleInfo: This later mark of the A-model Kingcobra is quite similar to the
+      earlier P-63A-5. Aside from the striking golden target camouflage, the airframe
+      itself only has minor detail differences. Internally, it has modified armament
+      and extra engine power. The best-performing Kingcobra at low altitudes, the
+      P-63A-10 is a versatile fighter with good speed, climb, armament, and agility.
+      Intercepting bombers up high, zooming around at sea level with a hefty bombload,
+      and diving on unfortunate victims with talons drawn are all within a day's
+      work for this lethal aircraft. It requires some finesse to fly but can give
+      feared opponents like the Bf 109 F-4 a serious run for their money.
+  - vehicle: 1
+    number: 4
+    vehicleName: 'P-63C-5 '
+    vehiclePhoto: {fileID: 21300000, guid: 421bba73accb70849b22129c173b3734, type: 3}
+    vehicleInfo: 'The P-63C-5 Kingcobra has been present since the start of the Open
+      Beta Test prior to Update 1.27. It features a far better engine than the previous
+      P-63A but also retains the four 12.7 mm machine guns and 37 mm cannon mounted
+      through the propeller hub. The Allison V-1710-117 helps the P-63 perform much
+      better at low altitude but high-altitude performance still leaves much to be
+      desired. Players should stick to low-altitude fighting where the Kingcobra
+      shines. For ground attack, the Kingcobra also has three 500 lb bombs, two mounted
+      on either wing and one mounted in the centre. The 37 mm cannon also has access
+      to AP rounds however it''s ill-advised to use them against armoured targets
+      due to their low velocity. '
+  - vehicle: 1
+    number: 5
+    vehicleName: 'F-8E '
+    vehiclePhoto: {fileID: 21300000, guid: 28afb99f342991b4fa87c6e9a2a80f18, type: 3}
+    vehicleInfo: The United States Navy showed clear interest in expanding the capabilities
+      of the Crusader series of aircraft as quickly as possible to expand its role
+      in maritime operations and offer primitive close-air support capabilities.
+      This led to the development of the F8U-2NE (later renamed the F-8E), which
+      featured a larger nose cone, new AN/APQ-94 fire control radar, detachable pylons,
+      a more reliable J57-P-20 engine, and guidance equipment for the AGM-12 Bullpup
+      missiles. The first prototype, a modified F8U-1 (No. 143710), was flown on
+      June 30, 1961, and the aircraft was quickly approved for use by the Navy. During
+      the Vietnam War, the Marine Corps made extensive use of the F-8E, with squadrons
+      like VMFA-235 considered to be among the best at using the aircraft in combat.
+  - vehicle: 1
+    number: 6
+    vehicleName: 'F-4J Phantom II '
+    vehiclePhoto: {fileID: 21300000, guid: 31938a334812ce147abc22b2421b114d, type: 3}
+    vehicleInfo: 'The F-4J is one of the most famous variants of the Phantom used
+      by the US Navy. The external appearance closely resembles the F-4C, only missing
+      the unusable IRST underneath the nose. It is a different aircraft from the
+      F-4E, its US Air Force counterpart: lacking the "Agile Eagle" wing slats and
+      devastating Vulcan Gatling cannon, the F-4J is even less suitable for dogfights.
+      It also does not have the F-4E''s lethal ground attack arsenal of air-to-ground
+      missiles and glide bombs. The F-4J makes up for these deficiencies by having
+      a very powerful pulse-Doppler radar, long-range AIM-7F missiles, and a unique
+      VTAS helmet-mounted sight for cueing its AIM-9G Sidewinder missiles. This is
+      a Phantom for pilots who can turn technological superiority into air superiority,
+      and it is good preparation for the succeeding F-14A Tomcat.'
+  - vehicle: 1
+    number: 7
+    vehicleName: 'F-14A Early '
+    vehiclePhoto: {fileID: 21300000, guid: 2c4d92e6b81d65d47927e0e23661d4b7, type: 3}
+    vehicleInfo: It was introduced in Update "Danger Zone", the F-14A can engage
+      enemy air targets at far greater distances than most enemy aircraft, allowing
+      the F-14A to take the initiative and achieve air superiority by firing first.
+      At long range, Phoenix missiles force enemy fighters to actively monitor the
+      sky even when they cannot yet see or detect the F-14A. While Phoenix missiles
+      may prove too sluggish to target enemy fighters in high-speed merges, its Sparrows
+      can engage maneuvering targets at short and medium ranges before engaging at
+      closer ranges with Sidewinders and M61 Vulcan cannon fire.
+  - vehicle: 1
+    number: 8
+    vehicleName: 'F-14B '
+    vehiclePhoto: {fileID: 21300000, guid: 4dbfb8770eea14d4396e796708e46fdb, type: 3}
+    vehicleInfo: It was introduced in Update "Danger Zone", the F-14A can engage
+      enemy air targets at far greater distances than most enemy aircraft, allowing
+      the F-14A to take the initiative and achieve air superiority by firing first.
+      At long range, Phoenix missiles force enemy fighters to actively monitor the
+      sky even when they cannot yet see or detect the F-14A. While Phoenix missiles
+      may prove too sluggish to target enemy fighters in high-speed merges, its Sparrows
+      can engage maneuvering targets at short and medium ranges before engaging at
+      closer ranges with Sidewinders and M61 Vulcan cannon fire.
+  - vehicle: 1
+    number: 9
+    vehicleName: 'Su-7B '
+    vehiclePhoto: {fileID: 21300000, guid: 899d0840cd4bce54f9193949524364d6, type: 3}
+    vehicleInfo: Introduced in Update "Starfighters", the Su-7B is a very capable
+      fighter/bomber. Unlike many supersonic aircraft at its BR, the Su-7B has a
+      very good acceleration and outspeeds almost any other supersonic fighter except
+      for the MiG-21s and the F-104 Starfighters. For a strike aircraft it has a
+      decent manoeuvrability, this allows it to fight aircraft like the MiG-21s and
+      Harriers but without losing too much energy. However the Su-7B excels in terms
+      of ground ordnance, even though it lacks any sort of guided munitions, it has
+      ballistics computers for both bombs and rockets. It has enough payload to destroy
+      a full base with the ZB-360 incendiary bombs and for ground RB it can use the
+      S-24 or S-5K rockets.
+  - vehicle: 1
+    number: 10
+    vehicleName: 'Su-7BKL '
+    vehiclePhoto: {fileID: 21300000, guid: 0e7eede071acfa04fb6f2df628944f5a, type: 3}
+    vehicleInfo: The Su-7BKL was produced in large numbers, with a total of 700 units
+      built. This makes it the most produced variant of the Su-7 design. The Su-7BKL
+      was an upgrade over the Su-7B variant. It required less runway for takeoff
+      and landings in both paved and dirt. The aircraft featured rocket boosters
+      to decrease the amount of time required to takeoff, reducing the distance to
+      800 m, which was considerably less than the 1,250 m of the Su-7B. It also had
+      an improved landing chute and a stronger rear landing gear. It was produced
+      up to 1971 when it was replaced by the Su-17. It also received an export variant,
+      Su-7BMK, produced until 1965 for countries outside of the Warsaw pact.
+  - vehicle: 1
+    number: 11
+    vehicleName: 'Su-17M2 '
+    vehiclePhoto: {fileID: 21300000, guid: c5e77d821f0b46642a2a475c88a47621, type: 3}
+    vehicleInfo: Almost immediately after the Su-7 fighter-bomber was accepted into
+      service in 1959, a directorate was issued to vastly upgrade the aircraft, as
+      technology of the '50s and '60s was rapidly advancing and leaving the Su-7
+      behind. Throughout the early '60s, many avionics and ordnance upgrades were
+      experimented with, but the largest change would not come from the Soviets,
+      but rather, the Americans. In 1964, the culmination of the USAF's TFX program,
+      the F-111 "Aardvark", performed its first flight, and presented to the world
+      the dynamics of variable-geometry wings. The Soviets, as not to be out-done,
+      hammered a partially variable geometry wing (only the outer half of the wing
+      could pivot) into their updated Su-7 prototype, and redubbed it the Su-17.
+  - vehicle: 1
+    number: 12
+    vehicleName: 'Su-17M4 '
+    vehiclePhoto: {fileID: 21300000, guid: 76086d68291971c41b3a942103669e34, type: 3}
+    vehicleInfo: During the late 1970s, a final and ultimate modernization of the
+      Su-17M fighter-bomber was ordered. The aircraft was upgraded with RSDN navigation,
+      Klyon-57 laser targeting system, SPO-15LE RWR system, the IT-23M optical targeting
+      system for the TUBUS-3 seeker on the Kh-29T missile, and the ability to use
+      the BA-58 targeting system for anti-radiation missiles. The only way to externally
+      distinguish the Su-17M4 over its predecessor, the Su-17M3, is by the presence
+      of multiple extra bleed-air intakes in the rear fuselage, the most noticable
+      one being at the base of the vertical stabilizer. The aircraft would first
+      fly in 1980 and quickly enter service shortly after, supplementing the Su-17M3
+      fleet throughout the '80s and early '90s
+  objectNow:
+    vehicle: 1
+    number: 12
+    vehicleName: 'Su-17M4 '
+    vehiclePhoto: {fileID: 21300000, guid: 76086d68291971c41b3a942103669e34, type: 3}
+    vehicleInfo: During the late 1970s, a final and ultimate modernization of the
+      Su-17M fighter-bomber was ordered. The aircraft was upgraded with RSDN navigation,
+      Klyon-57 laser targeting system, SPO-15LE RWR system, the IT-23M optical targeting
+      system for the TUBUS-3 seeker on the Kh-29T missile, and the ability to use
+      the BA-58 targeting system for anti-radiation missiles. The only way to externally
+      distinguish the Su-17M4 over its predecessor, the Su-17M3, is by the presence
+      of multiple extra bleed-air intakes in the rear fuselage, the most noticable
+      one being at the base of the vertical stabilizer. The aircraft would first
+      fly in 1980 and quickly enter service shortly after, supplementing the Su-17M3
+      fleet throughout the '80s and early '90s

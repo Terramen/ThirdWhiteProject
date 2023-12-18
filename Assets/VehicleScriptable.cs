@@ -1,22 +1,20 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ContentBlock", menuName = "ScriptableObject", order = 1)]
+[CreateAssetMenu(fileName = "Vehicles", menuName = "ScriptableObject", order = 1)]
 public class VehicleScriptable : ScriptableObject
 {
-    [HideInInspector] [SerializeField] private List<ItemModel> _items;
-    [SerializeField] private ItemModel currentItem;
+    [HideInInspector] [SerializeField] private List<VehicleObject> _objectVehicles;
 
-    private int currentIndex;
+    private int now;
 
-    public List<ItemModel> Items => _items;
+    [SerializeField] private VehicleObject objectNow;
 
-    public List<ItemModel> GetItemsByType(Vehicle type) {
+    public List<VehicleObject> GetItemsByType(Vehicle type) {
 
-        var list = new List<ItemModel>();
+        var list = new List<VehicleObject>();
 
-        foreach (var item in _items)
+        foreach (var item in _objectVehicles)
         {
             if (item.vehicle == type)
             {
@@ -28,44 +26,44 @@ public class VehicleScriptable : ScriptableObject
     }
 
     #region SoInit
-    public void CreateItem()
+    public void New()
     {
-        if (_items == null)
+        if (_objectVehicles == null)
         {
-            _items = new List<ItemModel>();
+            _objectVehicles = new List<VehicleObject>();
         }
 
-        var item = new ItemModel();
+        var item = new VehicleObject();
         
-        _items.Add(item);
+        _objectVehicles.Add(item);
         //item.ID = _items.Count;
-        currentItem = item;
-        currentIndex = _items.Count - 1;
+        objectNow = item;
+        now = _objectVehicles.Count - 1;
     }
 
-    public void RemoveItem()
+    public void Old()
     {
-        _items.Remove(currentItem);
-        if (_items.Count > 0)
-            currentItem = _items[0];
-        else CreateItem();
-        currentIndex = 0;
+        _objectVehicles.Remove(objectNow);
+        if (_objectVehicles.Count > 0)
+            objectNow = _objectVehicles[0];
+        else New();
+        now = 0;
     }
 
-    public void NextItem()
+    public void UpObject()
     {
-        if (currentIndex + 1 < _items.Count)
+        if (now + 1 < _objectVehicles.Count)
         {
-            currentIndex++;
-            currentItem = _items[currentIndex];
+            now++;
+            objectNow = _objectVehicles[now];
         }
     }
-    public void PrevItem()
+    public void DownObject()
     {
-        if (currentIndex > 0)
+        if (now > 0)
         {
-            currentIndex--;
-            currentItem = _items[currentIndex];
+            now--;
+            objectNow = _objectVehicles[now];
         }
     }
     #endregion
@@ -74,12 +72,12 @@ public class VehicleScriptable : ScriptableObject
 
 
 [System.Serializable]
-public class ItemModel {
+public class VehicleObject {
     public Vehicle vehicle;
-    public int id;
-    public string playerName;
-    public string playerInfo;
-    public Sprite playerPhoto;
+    public int number;
+    public string vehicleName;
+    public Sprite vehiclePhoto;
+    public string vehicleInfo;
 }
 
 public enum Vehicle {

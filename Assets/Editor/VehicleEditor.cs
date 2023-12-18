@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(VehicleScriptable))]
-public class PlayerInfoEditor : Editor {
+public class VehicleEditor : Editor {
     private VehicleScriptable _itemBase;
     private void Awake()
     {
@@ -13,15 +13,15 @@ public class PlayerInfoEditor : Editor {
     public override void OnInspectorGUI()
     {
 
-        if (GUILayout.Button("New Item"))
+        if (GUILayout.Button("+"))
         {
-            _itemBase.CreateItem();
+            _itemBase.New();
         }
-        if (GUILayout.Button("Remove"))
+        if (GUILayout.Button("-"))
         {
-            _itemBase.RemoveItem();
+            _itemBase.Old();
         }
-        if (GUILayout.Button("Save"))
+        if (GUILayout.Button("Done"))
         {
             if (_itemBase != null)
             {
@@ -30,13 +30,13 @@ public class PlayerInfoEditor : Editor {
             }
         }
         GUILayout.BeginHorizontal();
-        if (GUILayout.Button("<"))
+        if (GUILayout.Button("Prev"))
         {
-            _itemBase.PrevItem();
+            _itemBase.DownObject();
         }
-        if (GUILayout.Button(">"))
+        if (GUILayout.Button("Next"))
         {
-            _itemBase.NextItem();
+            _itemBase.UpObject();
         }
         GUILayout.EndHorizontal();
 
