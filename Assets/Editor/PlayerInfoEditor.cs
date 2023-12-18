@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(ContentBlockScripable))]
+[CustomEditor(typeof(VehicleScriptable))]
 public class PlayerInfoEditor : Editor {
-    private ContentBlockScripable _itemBase;
+    private VehicleScriptable _itemBase;
     private void Awake()
     {
-        _itemBase = (ContentBlockScripable)target;
+        _itemBase = (VehicleScriptable)target;
     }
     public override void OnInspectorGUI()
     {

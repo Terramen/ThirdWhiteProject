@@ -10,7 +10,7 @@ public class ContentControl : MonoBehaviour
     [SerializeField] private TMP_Text _playerInfoText;
     [SerializeField] private Image _playerNamePhoto;
 
-    [SerializeField] private ContentBlockScripable _script;
+    [SerializeField] private VehicleScriptable _script;
 
     [SerializeField] private GameObject _go;
     [SerializeField] private GameObject _go2;
@@ -32,7 +32,7 @@ public class ContentControl : MonoBehaviour
     public void LoadList(int id) {
         _currentId = 0;
 
-        PlayerType type = (PlayerType)id;
+        Vehicle type = (Vehicle)id;
         _currentList = _script.GetItemsByType(type);
     }
     
